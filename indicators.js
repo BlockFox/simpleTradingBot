@@ -2,8 +2,7 @@
 const CcKeys = require("./.keys");
 // iport Croptocompare
 const CryptoCompareAPI = require("cryptocompare");
-// cryptoCompare key
-// const CCApiKey = "4abdc518677e634ec4ea25813c6fabaae8e6a727b06e2df95152e531fde59c7f";
+
 //init cryptoCompare
 CryptoCompareAPI.setApiKey(CcKeys.CcKey);
 
